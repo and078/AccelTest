@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AccelTest.MainPage">
+    <ContentPage.Content>
+      
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!--<Label Grid.Row="0" Grid.ColumnSpan="2" x:Name="LabelX" Background="Black"/>
+            <Label Grid.Row="1" Grid.ColumnSpan="2" x:Name="LabelY" Background="Black"/>
+            <Label Grid.Row="2" Grid.ColumnSpan="2" x:Name="LabelZ" Background="Black"/>-->
+
+            <!--<Label Grid.Row="0" Grid.Column="2" x:Name="LabelBatteryChargeLevel" Background="Black"/>
+            <Label Grid.Row="1" Grid.Column="2" x:Name="LabelBatteryState" Background="Black"/>
+            <Label Grid.Row="2" Grid.Column="2" x:Name="LabelBatteryPowerSource" Background="Black"/>-->
+
+            <Button Grid.Row="3" Grid.Column="0" Text="Start" x:Name="ButtonStart" Clicked="ButtonStart_Clicked" />
+            <Button Grid.Row="3" Grid.Column="1" Text="Stop" x:Name="ButtonStop" Clicked="ButtonStop_Clicked" />
+            <!--<Button Grid.Row="3" Grid.Column="2" Text="Battery Info" x:Name="ButtonBatteryInfo" Clicked="BatteryInfo_Clicked" />-->
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
+ 
